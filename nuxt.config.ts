@@ -7,6 +7,13 @@ export default defineNuxtConfig({
   nitro: {
     preset: "static",
   },
+  routeRules: {
+    "/": { prerender: true },
+    "/pricing": { prerender: true },
+    "/privacy-policy": { prerender: true },
+    "/refund-policy": { prerender: true },
+    "/terms-and-conditions": { prerender: true },
+  },
 
   css: ["~/assets/scss/main.scss"],
 
@@ -37,6 +44,8 @@ export default defineNuxtConfig({
         { name: "apple-mobile-web-app-title", content: "Saynest Lab" },
         { name: "apple-mobile-web-app-capable", content: "yes" },
         { name: "apple-mobile-web-app-status-bar-style", content: "default" },
+
+        { name: "mobile-web-app-capable", content: "yes" },
       ],
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
