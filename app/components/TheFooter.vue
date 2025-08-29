@@ -21,7 +21,6 @@
             </a>
             <a
               href="https://x.com/andrii_mysliuk"
-              target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center gap-2 hover:text-white transition"
             >

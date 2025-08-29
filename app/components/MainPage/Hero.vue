@@ -6,7 +6,6 @@
       <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start items-center gap-4 pt-2">
         <a
           href="https://app.saynestlab.com/"
-          target="_blank"
           rel="noopener noreferrer"
           class="min-w-[200px] text-center bg-[#5A3FFF] text-white hover:bg-[#4C35E6] px-6 py-3 rounded-md font-medium transition"
         >

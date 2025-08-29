@@ -21,7 +21,6 @@
 
         <a
           href="https://app.saynestlab.com/"
-          target="_blank"
           rel="noopener noreferrer"
           class="w-full inline-flex justify-center items-center px-6 py-2.5 text-sm font-semibold rounded-md bg-[#5A3FFF] text-white hover:bg-[#4C35E6] transition"
         >
