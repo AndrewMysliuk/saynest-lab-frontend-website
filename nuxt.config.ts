@@ -7,13 +7,6 @@ export default defineNuxtConfig({
   nitro: {
     preset: "static",
   },
-  routeRules: {
-    "/": { prerender: true },
-    "/pricing": { prerender: true },
-    "/privacy-policy": { prerender: true },
-    "/refund-policy": { prerender: true },
-    "/terms-and-conditions": { prerender: true },
-  },
 
   css: ["~/assets/scss/main.scss"],
 

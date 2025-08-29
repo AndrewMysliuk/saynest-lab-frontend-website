@@ -5,10 +5,10 @@
         <nav
           class="order-1 lg:order-2 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-6 text-sm items-start sm:items-center lg:justify-end lg:items-end lg:text-right lg:self-start"
         >
-          <a href="/pricing" class="hover:text-white">Pricing</a>
-          <a href="/terms-and-conditions" class="hover:text-white">Terms & Conditions</a>
-          <a href="/privacy-policy" class="hover:text-white">Privacy Policy</a>
-          <a href="/refund-policy" class="hover:text-white">Refund Policy</a>
+          <NuxtLink href="/pricing" class="hover:text-white">Pricing</NuxtLink>
+          <NuxtLink href="/terms-and-conditions" class="hover:text-white">Terms & Conditions</NuxtLink>
+          <NuxtLink href="/privacy-policy" class="hover:text-white">Privacy Policy</NuxtLink>
+          <NuxtLink href="/refund-policy" class="hover:text-white">Refund Policy</NuxtLink>
         </nav>
 
         <div class="order-2 lg:order-1 space-y-3">
